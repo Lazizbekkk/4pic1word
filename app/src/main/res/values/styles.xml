@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Button.Answers">
+        <item name="android:background">@drawable/bg_coin_card</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Button.WrongAns">
+        <item name="android:background">@drawable/bg_answer</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Button.Delete">
+        <item name="android:background">@drawable/bg_answer</item>
+        <item name="backgroundTint">#E91E63</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:src">@drawable/ic_delete</item>
+        <item name="tint">@color/white</item>
+    </style>
+    <style name="Button.Edits">
+        <item name="android:background">@drawable/bg_answer</item>
+        <item name="backgroundTint">#FFC107</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:src">@drawable/ic_hint</item>
+        <item name="android:padding">16dp</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="Button.Variant">
+        <item name="android:background">@drawable/bg_variant</item>
+    </style>
+
+
+    <style name="CustomRoundedImageView1" parent="">
+        <item name="cornerSizeTopLeft">20dp</item>
+        <item name="strokeColor">#37B5B6</item>
+        <item name="android:dashWidth">2dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="CustomRoundedImageView2" parent="">
+        <item name="cornerSizeTopRight">20dp</item>
+        <item name="strokeColor">#37B5B6</item>
+        <item name="android:dashWidth">4dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="CustomRoundedImageView3" parent="">
+        <item name="cornerSizeBottomLeft">20dp</item>
+        <item name="strokeColor">#37B5B6</item>
+        <item name="android:dashWidth">4dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="CustomRoundedImageView4" parent="">
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="strokeColor">#37B5B6</item>
+        <item name="android:dashWidth">4dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="CustomRoundedImageViewFrame" parent="">
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+        <item name="cornerSizeTopRight">20dp</item>
+        <item name="cornerSizeTopLeft">20dp</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="android:dashWidth">4dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="CustomProgressBar" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/bg_progress</item>
+        <item name= "android:max">64</item>
+        <item name="cornerRadius">1dp</item>
+    </style>
+
+    <style name="CustomProgressBar2" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/bg_progress2</item>
+        <item name= "android:max">64</item>
+        <item name="backgroundColor">@color/black</item>
+        <item name="cornerRadius">1dp</item>
+    </style>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+</resources>

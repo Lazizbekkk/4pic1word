@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <ImageView
+        android:id="@+id/img_view_gif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="visible"/>
+
+    <com.mamadiyorov_lazizbek.a4piic1suz_ver12.screens.splash.ImageTextView
+        android:visibility="invisible"
+        android:id="@+id/text_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:gravity="center"
+        android:text="4 Picture \n1 Word"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+
+
+    <ImageView
+        android:id="@+id/imageView3SPlash"
+        android:layout_width="123dp"
+        android:layout_height="123dp"
+        android:src="@drawable/ic_coin_top_end"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+
+    <ImageView
+        android:id="@+id/imageView1SPlash"
+        android:visibility="invisible"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:src="@drawable/ic_coin_top_center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".15"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/imageView2Splash"
+        android:layout_width="42.31dp"
+        android:layout_height="42.31dp"
+        android:src="@drawable/ic_coin_top_center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".2"
+
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+ <!--   <ImageView
+        android:visibility="invisible"
+        android:id="@+id/imageView2Splash"
+        android:layout_width="42.31dp"
+        android:layout_height="42.31dp"
+        android:src="@drawable/ic_coin_top_center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias=".8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".2"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/splash_loading"
+        app:lottie_colorFilter="@color/white"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
